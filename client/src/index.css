@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #c0c0c8;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body,
+#root {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  flex: 0 0 100%;
+  overflow: hidden;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/index",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "jest": "^24.8.0",
+    "morgan": "~1.9.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ]
+  }
+}
